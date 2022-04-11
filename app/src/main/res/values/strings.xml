@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Interactive Elearning</string>
+    <!-- Strings related to login -->
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="student_id">Student ID</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sendEmail">Send us an Email to reset your Password, Make sure you send us the email from your Student Email Account</string>
+    <string name="compose">Compose</string>
+    <string name="email">Email</string>
+    <string name="emailSend">After sending an Email please be Patient. We will reach you out soon \nThank You!</string>
+    <string name="student_name">Student Name</string>
+    <string name="loading">Loading…</string>
+    <string name="view">View</string>
+    <string name="log_in">Log in</string>
+    <string name="handouts">Handouts</string>
+    <string name="ppt_slides">PPT Slides</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_content">Note Content</string>
+    <string name="just_now">Just Now</string>
+    <string name="subject">Subject</string>
+    <string name="your_question">Your Question</string>
+    <string name="compose_new_message">+ COMPOSE NEW MESSAGE</string>
+    <string name="teacher">Teacher</string>
+    <string name="other_student_s_replies">Other Student\'s Replies</string>
+    <string name="reply">Reply</string>
+    <string name="professor_details">Professor Details</string>
+    <string name="videos">Videos</string>
+    <string name="helping_material">Helping Material</string>
+    <string name="notes">Notes</string>
+    <string name="discussion_board">Discussion Board</string>
+</resources>

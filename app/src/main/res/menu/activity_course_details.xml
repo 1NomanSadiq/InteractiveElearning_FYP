@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/professorDetailsSection"
+        android:icon="@drawable/icon_bn_professor_details"
+        android:title="@string/professor_details" />
+
+    <item
+        android:id="@+id/lectureVideosSection"
+        android:icon="@drawable/icon_bn_videos"
+        android:title="@string/videos" />
+
+    <item
+        android:id="@+id/helpingMaterialSection"
+        android:icon="@drawable/icon_bn_helping_material"
+        android:title="@string/helping_material" />
+
+    <item
+        android:id="@+id/notesSection"
+        android:icon="@drawable/icon_bn_notes"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/DiscussionBoardSection"
+        android:icon="@drawable/icon_bn_discussion_board"
+        android:title="@string/discussion_board" />
+
+</menu>

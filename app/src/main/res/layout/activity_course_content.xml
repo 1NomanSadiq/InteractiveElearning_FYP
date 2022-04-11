@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:tag="fragTag"
+    tools:context=".activities.CourseContentActivity">
+
+    <FrameLayout
+        android:id="@+id/selectedCourseSectionContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/courseDetailsSection"
+        android:layout_below="@+id/courseTitle"
+        android:layout_marginTop="20dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/courseDetailsSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/design_bottom_navigation_bar"
+        app:itemBackground="@drawable/background_navigation_selected_item"
+        app:itemIconTint="@drawable/navigation_items_color"
+        app:menu="@menu/activity_course_details" />
+
+    <TextView
+        android:id="@+id/selectedCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/loading"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/courseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/loading"
+        android:textColor="#B7C5FF"
+        android:textSize="20sp" />
+</RelativeLayout>

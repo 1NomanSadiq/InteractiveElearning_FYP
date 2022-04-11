@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "503042904110",
+    "firebase_url": "https://interactiveelearning-3306a-default-rtdb.firebaseio.com",
+    "project_id": "interactiveelearning-3306a",
+    "storage_bucket": "interactiveelearning-3306a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503042904110:android:7af1c9ad17f328e8738fbf",
+        "android_client_info": {
+          "package_name": "edu.vu.ielearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503042904110-itvm4p5buprol7034d0io5324n64p73e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfQis8zObCJZSXH6nuYxpLPkZXSeQ_9HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503042904110-itvm4p5buprol7034d0io5324n64p73e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
